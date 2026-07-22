@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Anees Anjum | Software Engineer & Laravel Developer</title>
+  <meta name="description" content="Software Engineer with 4+ years building CMS, OMS, e-commerce platforms and REST APIs with PHP and Laravel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar navbar-custom fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 text-decoration-none" href="#home">
+      <span class="navbar-brand-logo">A</span>
+      <span class="font-display fw-bold fs-5 text-light">Anees<span style="color:var(--accent-400)">.</span></span>
+    </a>
+    <ul class="navbar-nav d-none d-md-flex flex-row align-items-center gap-1 mb-0">
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#experience">Experience</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#education">Education</a></li>
+      <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-sm btn-outline-info d-none d-md-inline-flex align-items-center gap-1" style="border-color:rgba(34,211,238,0.3);color:var(--accent-300);background:rgba(34,211,238,0.1)">Hire Me</a>
+    <button class="btn d-md-none text-light" id="menu-btn"><i class="bi bi-list fs-4"></i></button>
+  </div>
+  <div class="mobile-menu d-md-none" id="mobile-menu">
+    <div class="container pb-3">
+      <div class="glass rounded-3 p-2 d-flex flex-column gap-1">
+        <a class="nav-link nav-link-custom" href="#about">About</a>
+        <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+        <a class="nav-link nav-link-custom" href="#experience">Experience</a>
+        <a class="nav-link nav-link-custom" href="#projects">Projects</a>
+        <a class="nav-link nav-link-custom" href="#education">Education</a>
+        <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== Hero ===== -->
+<section class="hero-section" id="home">
+  <div class="position-absolute inset-0 grid-bg mask-fade"></div>
+  <div class="position-absolute" style="top:25%;left:50%;transform:translateX(-50%);width:40rem;height:40rem;border-radius:50%;background:rgba(34,211,238,0.1);filter:blur(80px);animation:pulse-slow 4s infinite"></div>
+  <div class="position-absolute bottom-0 end-0" style="width:24rem;height:24rem;border-radius:50%;background:rgba(8,145,178,0.1);filter:blur(80px)"></div>
+
+  <div class="container position-relative text-center" style="z-index:10">
+    <div class="hero-avatar-wrap mb-4 d-inline-block">
+      <div class="hero-avatar-glow"></div>
+      <div class="hero-avatar position-relative">MA</div>
+      <span class="status-badge"><span class="status-dot"></span>Available</span>
+    </div>
+    <div class="pill-badge mb-3"><i class="bi bi-stars"></i> Open to new opportunities</div>
+    <h1 class="font-display fw-bold mb-2" style="font-size:clamp(2.5rem,6vw,4rem);line-height:1.1">
+      Muhammad <span class="text-gradient">Anees Anjum</span>
+    </h1>
+    <div class="d-flex align-items-center justify-content-center mb-4" style="height:1.75rem">
+      <span class="font-display fs-5 fw-semibold text-light" id="typed-text"></span>
+      <span class="cursor-bar"></span>
+    </div>
+    <p class="mx-auto text-secondary" style="max-width:42rem">
+      Software Engineer with 4+ years of experience building CMS solutions, e-commerce platforms,
+      REST APIs, and enterprise order management systems using PHP and Laravel.
+    </p>
+    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+      <a href="#projects" class="btn btn-gradient px-4 py-2 d-inline-flex align-items-center gap-2">
+        View Projects <i class="bi bi-arrow-right"></i>
+      </a>
+      <a href="#contact" class="btn btn-ghost px-4 py-2 d-inline-flex align-items-center gap-2">
+        <i class="bi bi-envelope"></i> Contact Me
+      </a>
+    </div>
+    <div class="d-flex justify-content-center gap-2 mt-4">
+      <a href="tel:+923131539609" class="social-icon" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+      <a href="mailto:anis7ttii@gmail.com" class="social-icon" aria-label="Email"><i class="bi bi-envelope"></i></a>
+      <a href="https://linkedin.com/in/m-anees-anjum777" target="_blank" rel="noreferrer" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/MuhammadAnees7" target="_blank" rel="noreferrer" class="social-icon" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+  <div class="position-absolute bottom-0 start-50 translate-middle-x d-none d-sm-flex flex-column align-items-center gap-1 text-secondary" style="bottom:1.5rem">
+    <span style="font-size:0.625rem;letter-spacing:0.3em;text-transform:uppercase">Scroll</span>
+    <span style="width:1px;height:2.5rem;background:linear-gradient(to bottom,rgba(34,211,238,0.6),transparent)"></span>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section class="py-5" id="about">
+  <div class="container">
+    <div class="section-heading">
+      <h2>About <span class="text-gradient">Me</span></h2>
+      <div class="underline"></div>
+      <p>A brief introduction about who I am and what I do</p>
+    </div>
+    <div class="row g-4 align-items-center reveal">
+      <div class="col-lg-6">
+        <p class="text-secondary mb-3" style="line-height:1.7">
+          I am a dedicated Software Engineer with over 4 years of experience in developing scalable,
+          high-performance web applications using PHP and Laravel. I specialize in building
+          enterprise-level solutions including Content Management Systems, Order Management Systems,
+          and RESTful APIs.
+        </p>
+        <p class="text-secondary mb-3" style="line-height:1.7">
+          My expertise spans across full-stack development — from designing robust backend
+          architectures to building responsive and interactive user interfaces. I have worked on
+          complex business workflows, payment gateway integrations, and cross-functional team
+          collaborations.
+        </p>
+        <p class="text-secondary mb-4" style="line-height:1.7">
+          I am passionate about writing clean, maintainable code and solving complex business
+          problems with elegant technical solutions.
+        </p>
+        <div class="row g-2">
+          <div class="col-sm-6"><div class="info-card d-flex align-items-center gap-2 card-sheen"><span class="skill-icon"><i class="bi bi-geo-alt"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Location</p><p class="fw-medium text-light mb-0 small">Islamabad, Pakistan</p></div></div></div>
+          <div class="col-sm-6"><div class="info-card d-flex align-items-center gap-2 card-sheen"><span class="skill-icon"><i class="bi bi-briefcase"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Experience</p><p class="fw-medium text-light mb-0 small">4+ Years</p></div></div></div>
+          <div class="col-sm-6"><div class="info-card d-flex align-items-center gap-2 card-sheen"><span class="skill-icon"><i class="bi bi-envelope"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Email</p><p class="fw-medium text-light mb-0 small text-truncate">anis7ttii@gmail.com</p></div></div></div>
+          <div class="col-sm-6"><div class="info-card d-flex align-items-center gap-2 card-sheen"><span class="skill-icon"><i class="bi bi-telephone"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Phone</p><p class="fw-medium text-light mb-0 small">+92 313 1539609</p></div></div></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-6"><div class="stat-card card-sheen"><h3 class="stat-value text-gradient mb-0">4+</h3><p class="text-secondary small mt-2 mb-0">Years of Experience</p><div class="stat-bar"></div></div></div>
+          <div class="col-6"><div class="stat-card card-sheen"><h3 class="stat-value text-gradient mb-0">4+</h3><p class="text-secondary small mt-2 mb-0">Projects Completed</p><div class="stat-bar"></div></div></div>
+          <div class="col-6"><div class="stat-card card-sheen"><h3 class="stat-value text-gradient mb-0">10+</h3><p class="text-secondary small mt-2 mb-0">Payment Gateways</p><div class="stat-bar"></div></div></div>
+          <div class="col-6"><div class="stat-card card-sheen"><h3 class="stat-value text-gradient mb-0">3+</h3><p class="text-secondary small mt-2 mb-0">Companies Worked With</p><div class="stat-bar"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section class="py-5 position-relative" id="skills">
+  <div class="position-absolute inset-0 grid-bg mask-fade-70" style="opacity:0.5"></div>
+  <div class="container position-relative">
+    <div class="section-heading">
+      <h2>Technical <span class="text-gradient">Skills</span></h2>
+      <div class="underline"></div>
+      <p>Technologies and tools I work with</p>
+    </div>
+    <div class="row g-3">
+      <!-- Backend -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-server"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Backend Development</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">PHP</span><span class="skill-tag">Laravel</span><span class="skill-tag">REST APIs</span><span class="skill-tag">MVC Architecture</span><span class="skill-tag">Laravel Sanctum</span><span class="skill-tag">Laravel Passport</span><span class="skill-tag">Eloquent ORM</span><span class="skill-tag">Query Builder</span><span class="skill-tag">Blade Templates</span><span class="skill-tag">Middleware</span><span class="skill-tag">Magento 2</span>
+          </div>
+        </div>
+      </div>
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-layout-text-window"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Frontend Development</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">JavaScript</span><span class="skill-tag">jQuery</span><span class="skill-tag">AJAX</span><span class="skill-tag">Bootstrap</span><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">React</span><span class="skill-tag">DataTables</span>
+          </div>
+        </div>
+      </div>
+      <!-- Database -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-database"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Database</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">MySQL</span><span class="skill-tag">MariaDB</span><span class="skill-tag">DBeaver</span><span class="skill-tag">Database Design</span><span class="skill-tag">Query Optimization</span><span class="skill-tag">Migrations</span>
+          </div>
+        </div>
+      </div>
+      <!-- Tools -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-wrench"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Tools &amp; Platforms</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">Composer</span><span class="skill-tag">Postman</span><span class="skill-tag">XAMPP</span><span class="skill-tag">WAMP</span>
+          </div>
+        </div>
+      </div>
+      <!-- Domain -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-graph-up-arrow"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Domain Expertise</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">CMS Development</span><span class="skill-tag">OMS Development</span><span class="skill-tag">Payment Gateways</span><span class="skill-tag">Inventory Management</span><span class="skill-tag">Product Management</span><span class="skill-tag">RBAC</span><span class="skill-tag">ERP Integration</span><span class="skill-tag">SAP Integration</span><span class="skill-tag">Webhook Management</span><span class="skill-tag">Reporting &amp; Analytics</span>
+          </div>
+        </div>
+      </div>
+      <!-- Payment -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="skill-card card-sheen h-100">
+          <div class="d-flex align-items-center gap-2 mb-3"><span class="skill-icon"><i class="bi bi-credit-card"></i></span><h3 class="font-display fw-semibold mb-0" style="color:var(--accent-300)">Payment Gateways</h3></div>
+          <div class="d-flex flex-wrap gap-1">
+            <span class="skill-tag">HyperPay</span><span class="skill-tag">HyperBill</span><span class="skill-tag">Checkout.com</span><span class="skill-tag">Tamara</span><span class="skill-tag">Tabby</span><span class="skill-tag">STC Pay</span><span class="skill-tag">Mada</span><span class="skill-tag">Sadad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Experience ===== -->
+<section class="py-5" id="experience">
+  <div class="container" style="max-width:56rem">
+    <div class="section-heading">
+      <h2>Work <span class="text-gradient">Experience</span></h2>
+      <div class="underline"></div>
+      <p>My professional journey so far</p>
+    </div>
+    <div class="position-relative ps-4 ps-sm-5">
+      <span class="timeline-line"></span>
+      <div class="d-flex flex-column gap-3">
+
+        <!-- Job 1 -->
+        <div class="position-relative reveal">
+          <span class="timeline-node"></span>
+          <div class="timeline-card card-sheen">
+            <div class="d-flex flex-wrap justify-content-between gap-2 mb-1">
+              <h3 class="font-display fs-5 fw-semibold text-light mb-0">PHP Full Stack Laravel Developer</h3>
+              <span class="timeline-period">Mar 2022 – Present</span>
+            </div>
+            <p class="mb-3" style="color:var(--accent-300);font-size:0.875rem;font-weight:500"><i class="bi bi-briefcase"></i> Innovo Technologies · Islamabad, Pakistan</p>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-1">
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Developed and maintained multiple CMS and OMS applications using Laravel and PHP</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Designed scalable backend modules for User, Role, Permission, Product, Inventory, and Order Management</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Built dynamic reusable admin panels using Laravel Blade and JavaScript</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Developed RESTful APIs for web and mobile application integration</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Integrated payment gateways: Checkout.com, HyperBill, HyperPay, Sadad, STC, Mada, Tamara, Tabby</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Implemented Role-Based Access Control (RBAC) and authentication mechanisms</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Optimized database queries using Laravel Eloquent and Query Builder</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Managed promotions, promo codes, wallets, loyalty and rewards programs</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Integrated with ERP and SAP systems for enterprise workflows</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Collaborated with QA, UI/UX designers, and business stakeholders</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="position-relative reveal">
+          <span class="timeline-node"></span>
+          <div class="timeline-card card-sheen">
+            <div class="d-flex flex-wrap justify-content-between gap-2 mb-1">
+              <h3 class="font-display fs-5 fw-semibold text-light mb-0">Laravel Developer Intern</h3>
+              <span class="timeline-period">Nov 2021 – Feb 2022</span>
+            </div>
+            <p class="mb-3" style="color:var(--accent-300);font-size:0.875rem;font-weight:500"><i class="bi bi-briefcase"></i> Techozone · Islamabad, Pakistan</p>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-1">
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Built dynamic web applications using Laravel MVC, routing, Blade, and Eloquent ORM</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Developed RESTful APIs and implemented authentication using Laravel Sanctum and Passport</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Worked with MySQL database design, migrations, and query optimization</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Collaborated with senior developers for hands-on Laravel production experience</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="position-relative reveal">
+          <span class="timeline-node"></span>
+          <div class="timeline-card card-sheen">
+            <div class="d-flex flex-wrap justify-content-between gap-2 mb-1">
+              <h3 class="font-display fs-5 fw-semibold text-light mb-0">Associate Magento 2 Intern</h3>
+              <span class="timeline-period">Mar 2021 – Oct 2021</span>
+            </div>
+            <p class="mb-3" style="color:var(--accent-300);font-size:0.875rem;font-weight:500"><i class="bi bi-briefcase"></i> Evamp &amp; Saanga · Islamabad, Pakistan</p>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-1">
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Assisted in development and maintenance of Magento 2 e-commerce applications</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Customized Magento 2 modules and frontend templates per business requirements</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Worked with PHP, MySQL, HTML, CSS, JavaScript, and jQuery</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Fixed bugs and optimized existing functionalities under senior guidance</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Participated in code reviews, testing, and debugging activities</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="position-relative reveal">
+          <span class="timeline-node"></span>
+          <div class="timeline-card card-sheen">
+            <div class="d-flex flex-wrap justify-content-between gap-2 mb-1">
+              <h3 class="font-display fs-5 fw-semibold text-light mb-0">Retail Store Operations</h3>
+              <span class="timeline-period">Mar 2020 – Mar 2021</span>
+            </div>
+            <p class="mb-3" style="color:var(--accent-300);font-size:0.875rem;font-weight:500"><i class="bi bi-briefcase"></i> Self-Employed / Family Business · Islamabad, Pakistan</p>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-1">
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Managed day-to-day retail store operations alongside family after graduation</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Handled inventory management, stock tracking, and supplier coordination</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Managed customer relations and daily sales transactions</li>
+              <li class="d-flex gap-2 small text-secondary"><span class="mt-2" style="width:4px;height:4px;border-radius:50%;background:var(--accent-400);flex-shrink:0"></span>Gained practical understanding of business workflows applicable to OMS and CMS development</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section class="py-5 position-relative" id="projects">
+  <div class="position-absolute inset-0 grid-bg mask-fade-70" style="opacity:0.4"></div>
+  <div class="container position-relative">
+    <div class="section-heading">
+      <h2>Featured <span class="text-gradient">Projects</span></h2>
+      <div class="underline"></div>
+      <p>Enterprise applications and systems I have built</p>
+    </div>
+    <div class="row g-4">
+
+      <!-- Berain -->
+      <div class="col-md-6 reveal">
+        <div class="project-card card-sheen h-100">
+          <div class="project-wash" style="background:linear-gradient(to bottom right,rgba(34,211,238,0.2),rgba(37,99,235,0.1))"></div>
+          <div class="position-relative p-4">
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <!-- Berain Logo -->
+              <svg viewBox="0 0 64 64" width="48" height="48" class="flex-shrink-0">
+                <defs><linearGradient id="bg1" x1="0" y1="0" x2="64" y2="64"><stop offset="0" stop-color="#0ea5e9"/><stop offset="0.55" stop-color="#06b6d4"/><stop offset="1" stop-color="#0e7490"/></linearGradient></defs>
+                <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg1)"/>
+                <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="15.25" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+                <path d="M32 14c7.5 8.5 13 14.5 13 22a13 13 0 0 1-26 0c0-7.5 5.5-13.5 13-22Z" fill="white" fill-opacity="0.95"/>
+                <path d="M22 36c2.5 3 5 4.5 10 4.5S39.5 39 42 36c-2.5 4.5-6 6.5-10 6.5S24.5 40.5 22 36Z" fill="#06b6d4"/>
+                <circle cx="27" cy="30" r="2.4" fill="white" fill-opacity="0.7"/>
+              </svg>
+              <div>
+                <h3 class="font-display fw-semibold text-light mb-0">Berain Water — OMS</h3>
+                <p class="small mb-0" style="color:var(--accent-300)">Enterprise OMS · Current Project</p>
+              </div>
+            </div>
+            <p class="small text-secondary mb-3">A large-scale enterprise Order Management System with complete business workflow automation, ERP/SAP integration, and multi-channel support.</p>
+            <p class="text-uppercase mb-2" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Key Features</p>
+            <ul class="list-unstyled d-flex flex-column gap-1 mb-3">
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Call Center, Admin, and User modules with CRUD</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> ERP and SAP integration for order processing</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Wallets, FOC gifts, loyalty and rewards programs</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Invoice generation in PDF, Excel, and CSV</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Payment gateways: HyperBill, HyperPay, Sadad, STC, Mada, Tamara, Tabby</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Webhook management for all payment providers</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2 text-info" style="color:var(--accent-400)"></i> Cart with group and product-based promotions</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top border-secondary border-opacity-10">
+              <span class="project-tech-tag">Laravel</span><span class="project-tech-tag">PHP</span><span class="project-tech-tag">JavaScript</span><span class="project-tech-tag">AJAX</span><span class="project-tech-tag">Bootstrap</span><span class="project-tech-tag">MySQL</span><span class="project-tech-tag">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tania -->
+      <div class="col-md-6 reveal">
+        <div class="project-card card-sheen h-100">
+          <div class="project-wash" style="background:linear-gradient(to bottom right,rgba(56,189,248,0.2),rgba(30,64,175,0.1))"></div>
+          <div class="position-relative p-4">
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <!-- Tania Logo -->
+              <svg viewBox="0 0 64 64" width="48" height="48" class="flex-shrink-0">
+                <defs><linearGradient id="tg1" x1="0" y1="0" x2="64" y2="64"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#1e40af"/></linearGradient></defs>
+                <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#tg1)"/>
+                <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="15.25" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+                <path d="M32 12c8 9 14 15 14 23a14 14 0 0 1-28 0c0-8 6-14 14-23Z" fill="white" fill-opacity="0.95"/>
+                <path d="M22 38l6-9 4 5 4-7 6 11H22Z" fill="#1e40af"/>
+                <path d="M22 38l6-9 4 5 4-7 6 11H22Z" fill="#1e40af" transform="scale(1,-1) translate(0,-78)" opacity="0.45"/>
+              </svg>
+              <div>
+                <h3 class="font-display fw-semibold text-light mb-0">Tania Water — OMS</h3>
+                <p class="small mb-0" style="color:var(--accent-300)">Full Stack OMS</p>
+              </div>
+            </div>
+            <p class="small text-secondary mb-3">A dynamic OMS with multi-module dashboard for managing real-time data across Call Center, Admin, Store, Users, and User Groups.</p>
+            <p class="text-uppercase mb-2" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Key Features</p>
+            <ul class="list-unstyled d-flex flex-column gap-1 mb-3">
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Role-Based Authorization with multiple access levels</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Product management with stock and inventory tracking</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Reports: Orders, Customers, Tickets, Promo Codes, Products</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> FOC items, promotions, wallets, and coupons</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Payment integrations: Tamara, HyperPay, STC, Mada</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Sessions, Cookies, and Middleware management</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top border-secondary border-opacity-10">
+              <span class="project-tech-tag">Laravel</span><span class="project-tech-tag">PHP</span><span class="project-tech-tag">AJAX</span><span class="project-tech-tag">Bootstrap</span><span class="project-tech-tag">MySQL</span><span class="project-tech-tag">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fayha -->
+      <div class="col-md-6 reveal">
+        <div class="project-card card-sheen h-100">
+          <div class="project-wash" style="background:linear-gradient(to bottom right,rgba(45,212,191,0.2),rgba(8,145,178,0.1))"></div>
+          <div class="position-relative p-4">
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <!-- Fayha Logo -->
+              <svg viewBox="0 0 64 64" width="48" height="48" class="flex-shrink-0">
+                <defs><linearGradient id="fg1" x1="0" y1="0" x2="64" y2="64"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#0891b2"/><stop offset="1" stop-color="#155e75"/></linearGradient></defs>
+                <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#fg1)"/>
+                <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="15.25" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+                <path d="M32 12c8 9 14 15 14 23a14 14 0 0 1-28 0c0-8 6-14 14-23Z" fill="white" fill-opacity="0.95"/>
+                <path d="M32 18c5 6 9 10 9 15a9 9 0 0 1-18 0c0-5 4-9 9-15Z" fill="url(#fg1)" fill-opacity="0.5"/>
+                <circle cx="27" cy="28" r="2.2" fill="white" fill-opacity="0.85"/>
+              </svg>
+              <div>
+                <h3 class="font-display fw-semibold text-light mb-0">Fayha Water — OMS</h3>
+                <p class="small mb-0" style="color:var(--accent-300)">Full Stack OMS</p>
+              </div>
+            </div>
+            <p class="small text-secondary mb-3">A complete order management system featuring a full checkout lifecycle with multiple payment methods and role-based access control.</p>
+            <p class="text-uppercase mb-2" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Key Features</p>
+            <ul class="list-unstyled d-flex flex-column gap-1 mb-3">
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Call Center and Admin modules with role-based authorization</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Complete checkout lifecycle with order management</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Payment: COD, Wallet, Coupons, STC, Mada, HyperPay, Checkout.com</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> DataTables for real-time records and reporting</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Customer addresses, channels, promotions, promo codes</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Sessions, Cookies, and Middleware management</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top border-secondary border-opacity-10">
+              <span class="project-tech-tag">Laravel</span><span class="project-tech-tag">PHP</span><span class="project-tech-tag">JavaScript</span><span class="project-tech-tag">AJAX</span><span class="project-tech-tag">Bootstrap</span><span class="project-tech-tag">DataTables</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marketplace -->
+      <div class="col-md-6 reveal">
+        <div class="project-card card-sheen h-100">
+          <div class="project-wash" style="background:linear-gradient(to bottom right,rgba(251,191,36,0.15),rgba(234,88,12,0.1))"></div>
+          <div class="position-relative p-4">
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center fw-bold font-display text-dark flex-shrink-0" style="width:48px;height:48px;border-radius:16px;background:linear-gradient(to bottom right,#fbbf24,#ea580c);font-size:1.25rem">M2</div>
+              <div>
+                <h3 class="font-display fw-semibold text-light mb-0">Marketplace — E-Commerce</h3>
+                <p class="small mb-0" style="color:var(--accent-300)">Magento 2 E-Commerce</p>
+              </div>
+            </div>
+            <p class="small text-secondary mb-3">An e-commerce marketplace built on Magento 2 with customized modules, themes, and full backend functionality for product and catalog management.</p>
+            <p class="text-uppercase mb-2" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Key Features</p>
+            <ul class="list-unstyled d-flex flex-column gap-1 mb-3">
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Custom Magento 2 module development</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Theme customization and frontend templates</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Product catalog and backend management</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Frontend enhancements with HTML, CSS, JS, Bootstrap</li>
+              <li class="d-flex gap-2 small text-light"><i class="bi bi-check2" style="color:var(--accent-400)"></i> Bug fixing and performance optimization</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top border-secondary border-opacity-10">
+              <span class="project-tech-tag">PHP</span><span class="project-tech-tag">Magento 2</span><span class="project-tech-tag">JavaScript</span><span class="project-tech-tag">Bootstrap</span><span class="project-tech-tag">MySQL</span><span class="project-tech-tag">HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Education ===== -->
+<section class="py-5" id="education">
+  <div class="container" style="max-width:48rem">
+    <div class="section-heading">
+      <h2>My <span class="text-gradient">Education</span></h2>
+      <div class="underline"></div>
+      <p>Academic background and qualifications</p>
+    </div>
+    <div class="edu-card card-sheen reveal">
+      <div class="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
+        <div class="edu-icon"><i class="bi bi-mortarboard-fill fs-2"></i></div>
+        <div class="flex-grow-1">
+          <h3 class="font-display fs-5 fw-semibold text-light mb-1">Bachelor of Science in Computer Science</h3>
+          <p class="mb-3" style="color:var(--accent-300);font-weight:500">Federal Urdu University of Arts, Science &amp; Technology</p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-sm-start gap-2">
+            <span class="edu-badge"><i class="bi bi-calendar3"></i> 2016 – 2020</span>
+            <span class="edu-badge"><i class="bi bi-award"></i> CGPA: 2.9 / 4.0</span>
+            <span class="edu-badge"><i class="bi bi-geo-alt"></i> Islamabad, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section class="py-5" id="contact">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Get In <span class="text-gradient">Touch</span></h2>
+      <div class="underline"></div>
+      <p>Feel free to reach out for opportunities or collaboration</p>
+    </div>
+    <div class="row g-4 reveal">
+      <div class="col-lg-6">
+        <h3 class="font-display fs-4 fw-bold text-light">Let's work together</h3>
+        <p class="text-secondary mt-2" style="line-height:1.7">
+          I am open to new opportunities, freelance projects, and collaborations. If you have a
+          project in mind or want to discuss something, feel free to reach out through any of the
+          channels below.
+        </p>
+        <div class="d-flex flex-column gap-2 mt-4">
+          <a href="tel:+923131539609" class="text-decoration-none"><div class="contact-info-card d-flex align-items-center gap-3 card-sheen"><span class="contact-icon"><i class="bi bi-telephone"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Phone</p><p class="fw-medium text-light mb-0 small">+92 313 1539609</p></div></div></a>
+          <a href="mailto:anis7ttii@gmail.com" class="text-decoration-none"><div class="contact-info-card d-flex align-items-center gap-3 card-sheen"><span class="contact-icon"><i class="bi bi-envelope"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Email</p><p class="fw-medium text-light mb-0 small">anis7ttii@gmail.com</p></div></div></a>
+          <a href="https://linkedin.com/in/m-anees-anjum777" target="_blank" rel="noreferrer" class="text-decoration-none"><div class="contact-info-card d-flex align-items-center gap-3 card-sheen"><span class="contact-icon"><i class="bi bi-linkedin"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">LinkedIn</p><p class="fw-medium text-light mb-0 small">linkedin.com/in/m-anees-anjum777</p></div></div></a>
+          <a href="https://github.com/MuhammadAnees7" target="_blank" rel="noreferrer" class="text-decoration-none"><div class="contact-info-card d-flex align-items-center gap-3 card-sheen"><span class="contact-icon"><i class="bi bi-github"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">GitHub</p><p class="fw-medium text-light mb-0 small">github.com/MuhammadAnees7</p></div></div></a>
+          <div class="contact-info-card d-flex align-items-center gap-3 card-sheen"><span class="contact-icon"><i class="bi bi-geo-alt"></i></span><div><p class="text-uppercase mb-0" style="font-size:0.625rem;letter-spacing:0.1em;color:#64748b">Location</p><p class="fw-medium text-light mb-0 small">Islamabad, Pakistan</p></div></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <form id="contact-form" class="card-sheen rounded-3 p-4 p-sm-5 border border-secondary border-opacity-10">
+          <h3 class="font-display fs-5 fw-semibold text-light mb-4">Send a message</h3>
+          <div class="mb-3"><label class="form-label small text-secondary">Your Name</label><input type="text" required class="form-control-custom" placeholder="Enter your name"></div>
+          <div class="mb-3"><label class="form-label small text-secondary">Your Email</label><input type="email" required class="form-control-custom" placeholder="Enter your email"></div>
+          <div class="mb-3"><label class="form-label small text-secondary">Subject</label><input type="text" required class="form-control-custom" placeholder="What is this about?"></div>
+          <div class="mb-3"><label class="form-label small text-secondary">Message</label><textarea required rows="4" class="form-control-custom" placeholder="Write your message here..." style="resize:none"></textarea></div>
+          <button type="submit" class="btn btn-gradient w-100 py-3 d-inline-flex align-items-center justify-content-center gap-2"><i class="bi bi-send"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="py-4 border-top border-secondary border-opacity-10">
+  <div class="container text-center d-flex flex-column align-items-center gap-2">
+    <a href="#home" class="font-display fw-bold fs-5 text-decoration-none text-light">Anees<span style="color:var(--accent-400)">.</span></a>
+    <p class="small text-secondary mb-0">&copy; <span id="year"></span> Muhammad Anees Anjum. All rights reserved. Built with <i class="bi bi-heart-fill" style="color:var(--accent-400);font-size:0.75rem"></i> using HTML, Bootstrap &amp; CSS.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" style="display:none"><i class="bi bi-arrow-up"></i></button>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
